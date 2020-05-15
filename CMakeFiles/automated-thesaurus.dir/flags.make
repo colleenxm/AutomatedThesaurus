@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/colleen/projects/automated-thesaurus/cpr/include -I/home/colleen/projects/automated-thesaurus/cpr/opt/curl/include -I/home/colleen/projects/automated-thesaurus/cpr/opt/curl/include/curl 
 

@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/automated-thesaurus.dir/main.cpp.o CMakeFiles/automated-thesaurus.dir/engine.cpp.o  -o automated-thesaurus 
+/usr/bin/c++    -rdynamic CMakeFiles/automated-thesaurus.dir/main.cpp.o CMakeFiles/automated-thesaurus.dir/engine.cpp.o  -o automated-thesaurus -Wl,-rpath,/home/colleen/projects/automated-thesaurus/lib lib/libcpr.a lib/libcurl.so -ldl -lpthread -lssl -lcrypto -lz 

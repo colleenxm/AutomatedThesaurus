@@ -116,6 +116,11 @@ automated__thesaurus_EXTERNAL_OBJECTS =
 automated-thesaurus: CMakeFiles/automated-thesaurus.dir/main.cpp.o
 automated-thesaurus: CMakeFiles/automated-thesaurus.dir/engine.cpp.o
 automated-thesaurus: CMakeFiles/automated-thesaurus.dir/build.make
+automated-thesaurus: lib/libcpr.a
+automated-thesaurus: lib/libcurl.so
+automated-thesaurus: /usr/lib/x86_64-linux-gnu/libssl.so
+automated-thesaurus: /usr/lib/x86_64-linux-gnu/libcrypto.so
+automated-thesaurus: /usr/lib/x86_64-linux-gnu/libz.so
 automated-thesaurus: CMakeFiles/automated-thesaurus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colleen/projects/automated-thesaurus/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable automated-thesaurus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/automated-thesaurus.dir/link.txt --verbose=$(VERBOSE)
