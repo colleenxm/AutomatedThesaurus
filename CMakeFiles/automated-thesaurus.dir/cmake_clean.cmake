@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/automated-thesaurus.dir/main.cpp.o"
-  "CMakeFiles/automated-thesaurus.dir/engine.cpp.o"
+  "CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o"
   "automated-thesaurus.pdb"
   "automated-thesaurus"
 )

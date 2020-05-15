@@ -81,40 +81,40 @@ CMakeFiles/automated-thesaurus.dir/main.cpp.o.provides: CMakeFiles/automated-the
 CMakeFiles/automated-thesaurus.dir/main.cpp.o.provides.build: CMakeFiles/automated-thesaurus.dir/main.cpp.o
 
 
-CMakeFiles/automated-thesaurus.dir/engine.cpp.o: CMakeFiles/automated-thesaurus.dir/flags.make
-CMakeFiles/automated-thesaurus.dir/engine.cpp.o: engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colleen/projects/automated-thesaurus/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/automated-thesaurus.dir/engine.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/automated-thesaurus.dir/engine.cpp.o -c /home/colleen/projects/automated-thesaurus/engine.cpp
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o: CMakeFiles/automated-thesaurus.dir/flags.make
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o: src/engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colleen/projects/automated-thesaurus/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o -c /home/colleen/projects/automated-thesaurus/src/engine.cpp
 
-CMakeFiles/automated-thesaurus.dir/engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automated-thesaurus.dir/engine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colleen/projects/automated-thesaurus/engine.cpp > CMakeFiles/automated-thesaurus.dir/engine.cpp.i
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/automated-thesaurus.dir/src/engine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colleen/projects/automated-thesaurus/src/engine.cpp > CMakeFiles/automated-thesaurus.dir/src/engine.cpp.i
 
-CMakeFiles/automated-thesaurus.dir/engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automated-thesaurus.dir/engine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colleen/projects/automated-thesaurus/engine.cpp -o CMakeFiles/automated-thesaurus.dir/engine.cpp.s
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/automated-thesaurus.dir/src/engine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colleen/projects/automated-thesaurus/src/engine.cpp -o CMakeFiles/automated-thesaurus.dir/src/engine.cpp.s
 
-CMakeFiles/automated-thesaurus.dir/engine.cpp.o.requires:
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.requires:
 
-.PHONY : CMakeFiles/automated-thesaurus.dir/engine.cpp.o.requires
+.PHONY : CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.requires
 
-CMakeFiles/automated-thesaurus.dir/engine.cpp.o.provides: CMakeFiles/automated-thesaurus.dir/engine.cpp.o.requires
-	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/engine.cpp.o.provides.build
-.PHONY : CMakeFiles/automated-thesaurus.dir/engine.cpp.o.provides
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.provides: CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.provides.build
+.PHONY : CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.provides
 
-CMakeFiles/automated-thesaurus.dir/engine.cpp.o.provides.build: CMakeFiles/automated-thesaurus.dir/engine.cpp.o
+CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.provides.build: CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o
 
 
 # Object files for target automated-thesaurus
 automated__thesaurus_OBJECTS = \
 "CMakeFiles/automated-thesaurus.dir/main.cpp.o" \
-"CMakeFiles/automated-thesaurus.dir/engine.cpp.o"
+"CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o"
 
 # External object files for target automated-thesaurus
 automated__thesaurus_EXTERNAL_OBJECTS =
 
 automated-thesaurus: CMakeFiles/automated-thesaurus.dir/main.cpp.o
-automated-thesaurus: CMakeFiles/automated-thesaurus.dir/engine.cpp.o
+automated-thesaurus: CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o
 automated-thesaurus: CMakeFiles/automated-thesaurus.dir/build.make
 automated-thesaurus: lib/libcpr.a
 automated-thesaurus: lib/libcurl.so
@@ -131,7 +131,7 @@ CMakeFiles/automated-thesaurus.dir/build: automated-thesaurus
 .PHONY : CMakeFiles/automated-thesaurus.dir/build
 
 CMakeFiles/automated-thesaurus.dir/requires: CMakeFiles/automated-thesaurus.dir/main.cpp.o.requires
-CMakeFiles/automated-thesaurus.dir/requires: CMakeFiles/automated-thesaurus.dir/engine.cpp.o.requires
+CMakeFiles/automated-thesaurus.dir/requires: CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o.requires
 
 .PHONY : CMakeFiles/automated-thesaurus.dir/requires
 

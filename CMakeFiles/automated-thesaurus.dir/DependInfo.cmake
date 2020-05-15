@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/colleen/projects/automated-thesaurus/engine.cpp" "/home/colleen/projects/automated-thesaurus/CMakeFiles/automated-thesaurus.dir/engine.cpp.o"
   "/home/colleen/projects/automated-thesaurus/main.cpp" "/home/colleen/projects/automated-thesaurus/CMakeFiles/automated-thesaurus.dir/main.cpp.o"
+  "/home/colleen/projects/automated-thesaurus/src/engine.cpp" "/home/colleen/projects/automated-thesaurus/CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

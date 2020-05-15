@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/colleen/projects/automated-thesaurus/engine.cpp
-engine.h
-/home/colleen/projects/automated-thesaurus/engine.h
+/home/colleen/projects/automated-thesaurus/main.cpp
+src/engine.h
+/home/colleen/projects/automated-thesaurus/src/engine.h
+iostream
+-
 
-/home/colleen/projects/automated-thesaurus/engine.h
+/home/colleen/projects/automated-thesaurus/src/engine.cpp
+engine.h
+/home/colleen/projects/automated-thesaurus/src/engine.h
+
+/home/colleen/projects/automated-thesaurus/src/engine.h
 iostream
 -
 cpr/cpr.h
@@ -20,9 +26,9 @@ sstream
 iterator
 -
 json.hpp
-/home/colleen/projects/automated-thesaurus/json.hpp
+/home/colleen/projects/automated-thesaurus/src/json.hpp
 
-/home/colleen/projects/automated-thesaurus/json.hpp
+/home/colleen/projects/automated-thesaurus/src/json.hpp
 algorithm
 -
 cassert
@@ -354,12 +360,6 @@ cstring
 limits
 -
 type_traits
--
-
-/home/colleen/projects/automated-thesaurus/main.cpp
-engine.h
-/home/colleen/projects/automated-thesaurus/engine.h
-iostream
 -
 
 cpr/include/cpr/api.h

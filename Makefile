@@ -520,33 +520,6 @@ error_tests/fast:
 	$(MAKE) -f cpr/test/CMakeFiles/error_tests.dir/build.make cpr/test/CMakeFiles/error_tests.dir/build
 .PHONY : error_tests/fast
 
-engine.o: engine.cpp.o
-
-.PHONY : engine.o
-
-# target to build an object file
-engine.cpp.o:
-	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/engine.cpp.o
-.PHONY : engine.cpp.o
-
-engine.i: engine.cpp.i
-
-.PHONY : engine.i
-
-# target to preprocess a source file
-engine.cpp.i:
-	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/engine.cpp.i
-.PHONY : engine.cpp.i
-
-engine.s: engine.cpp.s
-
-.PHONY : engine.s
-
-# target to generate assembly for a file
-engine.cpp.s:
-	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/engine.cpp.s
-.PHONY : engine.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -573,6 +546,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/engine.o: src/engine.cpp.o
+
+.PHONY : src/engine.o
+
+# target to build an object file
+src/engine.cpp.o:
+	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/src/engine.cpp.o
+.PHONY : src/engine.cpp.o
+
+src/engine.i: src/engine.cpp.i
+
+.PHONY : src/engine.i
+
+# target to preprocess a source file
+src/engine.cpp.i:
+	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/src/engine.cpp.i
+.PHONY : src/engine.cpp.i
+
+src/engine.s: src/engine.cpp.s
+
+.PHONY : src/engine.s
+
+# target to generate assembly for a file
+src/engine.cpp.s:
+	$(MAKE) -f CMakeFiles/automated-thesaurus.dir/build.make CMakeFiles/automated-thesaurus.dir/src/engine.cpp.s
+.PHONY : src/engine.cpp.s
 
 # Help Target
 help:
@@ -614,12 +614,12 @@ help:
 	@echo "... patch_tests"
 	@echo "... util_tests"
 	@echo "... error_tests"
-	@echo "... engine.o"
-	@echo "... engine.i"
-	@echo "... engine.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/engine.o"
+	@echo "... src/engine.i"
+	@echo "... src/engine.s"
 .PHONY : help
 
 
