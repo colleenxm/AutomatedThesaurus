@@ -22,6 +22,7 @@ namespace automatedthesaurus {
     std::string MakeRequest(std::string input_word);
     std::string ChooseSynonym(nlohmann::basic_json<> response);
     nlohmann::basic_json<> Parse(std::string full_file);
+    bool IsPartSpeech(std::string part_of_speech);
     const std::string kKey = "fcd3c11c-893e-42d2-a8fb-acd43631bc80";
 }
 

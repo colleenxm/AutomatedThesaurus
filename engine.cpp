@@ -3,8 +3,10 @@
 using json = nlohmann::json;
 
 void automatedthesaurus::RunEngine() {
-    std::cout << "Running Engine" << std::endl; 
-    nlohmann::basic_json<> response = Parse(MakeRequest("love"));
+    std::cout << "Enter a word:" << std::endl; 
+    std::string word;
+    std::cin >> word;
+    nlohmann::basic_json<> response = Parse(MakeRequest(word));
     std::string chosen_synonym = ChooseSynonym(response);
     std::cout << "Synonym: "<< chosen_synonym <<std::endl;
 }
@@ -34,5 +36,27 @@ nlohmann::basic_json<> automatedthesaurus::Parse(std::string full_file) {
 std::string automatedthesaurus::ChooseSynonym(nlohmann::basic_json<> parsed_repsonse) {
     //get the object 
     //get the syns[]
-    return parsed_repsonse["/noun/syn/0"_json_pointer];
+    if (parsed_repsonse["/noun/syn/0"_json_pointer] != nullptr) {
+        return parsed_repsonse["/noun/syn/0"_json_pointer];
+    } else if (parsed_repsonse["/verb/syn/0"_json_pointer] != nullptr) {
+        return parsed_repsonse["/verb/syn/0"_json_pointer];
+    } else if (parsed_repsonse["/adverb/syn/0"_json_pointer] != nullptr) {
+        return parsed_repsonse["/adverb/syn/0"_json_pointer];
+    } else if (parsed_repsonse["/adjective/syn/0"_json_pointer] != nullptr) {
+        return parsed_repsonse["/adjective/syn/0"_json_pointer];
+    } else {
+        return "invalid word";
+    }
 }
+
+/**
+bool automatedthesaurus::IsPartSpeech(std::string part_of_speech) {
+    nlohmann::basic_json<> parsed_repsonse;
+    std::string file_path = "/" + part_of_speech + "/syn/0";
+    //have to have multiline check bc can't return null in a bool function
+    if (parsed_repsonse[]) {
+        return true;
+    }
+    return false;
+}
+*/
