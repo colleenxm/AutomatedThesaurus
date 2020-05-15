@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0   -g  -rdynamic CMakeFiles/lib518.dir/lib518.c.o CMakeFiles/lib518.dir/first.c.o CMakeFiles/lib518.dir/__/__/lib/warnless.c.o  -o ../../../../../bin/lib518-d -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../../../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0   -g  -rdynamic CMakeFiles/lib516.dir/lib516.c.o CMakeFiles/lib516.dir/first.c.o  -o ../../../../../bin/lib516-d -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../../../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

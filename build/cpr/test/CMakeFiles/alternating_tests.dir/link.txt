@@ -1,0 +1,1 @@
+/usr/bin/clang++-6.0  -g  -rdynamic CMakeFiles/alternating_tests.dir/alternating_tests.cpp.o  -o ../../bin/alternating_tests -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../lib/libtest_server-d.a ../../lib/libgtest-d.a ../../lib/libcpr-d.a ../../lib/libmongoose-d.a ../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

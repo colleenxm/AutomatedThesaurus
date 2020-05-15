@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0   -g  -rdynamic CMakeFiles/unit1600.dir/unit1600.c.o CMakeFiles/unit1600.dir/__/libtest/first.c.o  -o ../../../../../bin/unit1600 -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../../../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

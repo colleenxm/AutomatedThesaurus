@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0   -g  -rdynamic CMakeFiles/lib1511.dir/lib1511.c.o CMakeFiles/lib1511.dir/first.c.o CMakeFiles/lib1511.dir/testutil.c.o CMakeFiles/lib1511.dir/__/__/lib/warnless.c.o  -o ../../../../../bin/lib1511-d -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../../../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

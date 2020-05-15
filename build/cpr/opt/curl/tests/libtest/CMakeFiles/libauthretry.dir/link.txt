@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0   -g  -rdynamic CMakeFiles/libauthretry.dir/libauthretry.c.o CMakeFiles/libauthretry.dir/first.c.o  -o ../../../../../bin/libauthretry-d -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../../../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

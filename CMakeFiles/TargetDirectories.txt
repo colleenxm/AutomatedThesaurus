@@ -1,0 +1,3 @@
+/home/colleen/projects/automated-thesaurus/CMakeFiles/rebuild_cache.dir
+/home/colleen/projects/automated-thesaurus/CMakeFiles/automated-thesaurus.dir
+/home/colleen/projects/automated-thesaurus/CMakeFiles/edit_cache.dir

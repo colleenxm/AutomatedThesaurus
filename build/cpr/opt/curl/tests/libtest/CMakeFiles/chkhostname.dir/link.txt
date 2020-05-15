@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0   -g  -rdynamic CMakeFiles/chkhostname.dir/chkhostname.c.o CMakeFiles/chkhostname.dir/__/__/lib/curl_gethostname.c.o  -o ../../../../../bin/chkhostname-d -Wl,-rpath,/home/colleen/projects/automated-thesaurus/build/lib ../../../../../lib/libcurl-d.so -ldl -lpthread -lssl -lcrypto -lz 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/automated-thesaurus.dir/main.cpp.o CMakeFiles/automated-thesaurus.dir/engine.cpp.o  -o automated-thesaurus 

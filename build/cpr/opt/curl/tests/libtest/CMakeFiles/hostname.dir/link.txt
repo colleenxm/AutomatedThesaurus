@@ -1,0 +1,1 @@
+/usr/bin/clang-6.0 -fPIC   -g  -shared  -o .libs/libhostname-d.so CMakeFiles/hostname.dir/sethostname.c.o 
