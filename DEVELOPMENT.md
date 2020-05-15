@@ -8,4 +8,10 @@
 * Try out merriam webster API 
 * Allow user to input a word
 * Get it to return just the synonym
-
+## 5/15/20 
+* Is able to use nlohmann for json parsing
+* Corrent functionality: input a word in terminal, returns a synonym
+# TODO
+* Error handling -> handle empty input, handle multiple words, handle invalid words
+* Read entire paragraph, suggest specific words to be improved 
+*
